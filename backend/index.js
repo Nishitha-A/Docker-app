@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello Nishitha 🚀 Backend running!");
+  res.send("Updated CI/CD working 🔥");
 });
 
 app.listen(5000, () => console.log("Server running on port 5000"));
